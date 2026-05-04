@@ -1,0 +1,5 @@
+[versions]
+machinery = "2.24.3"
+
+[libraries]
+machinery = { module = "org.apache.logging.log4j:log4j-core", version.ref = "machinery" }
